@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+    <style>
+        
+#myDropdown {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #d40c0c;
+  border-radius: 40px;
+  background-color: #f8f4f4;
+  color: #333;
+  font-size: 25px;
+}
+    </style>
+    
+</head>
+<body>
+    <h1>Select</h1>'
+    <select>
+<option value="sun">Sun</option>
+<option value="mon">Mon</option>
+<option value="tue">Tue</option>
+<option value="wed">wed</option>
+<option value="thu">Thu</option>
+<option value="fri">fri</option>
+<option value="sat">sat</option>
+    </select><br><br>
+
+
+    <select size="2">
+        <option>Selece Day</option>
+        <option value="sun">Sun</option>
+        <option value="mon">Mon</option>
+        <option value="tue">Tue</option>
+        <option value="wed">wed</option>
+        <option value="thu">Thu</option>
+        <option value="fri">fri</option>
+        <option value="sat">sat</option>
+    </select><br><br>
+
+
+
+            <form action="/submit" method="post">
+                <label for="dropdown">Choose an option:</label>
+                <select id="myDropdown" name="options">
+                  <option value="option1">Select Options</option>
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
+                </select><br><br>
+                <input type="submit" value="Submit">
+              </form>
+
+</body>
+</html>
